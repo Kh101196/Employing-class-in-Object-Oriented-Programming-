@@ -84,7 +84,6 @@ def num_children_input():
         print("You enter the invalid value!")
         
 num_children_input()       
-patien1.age
 
 
 # In[67]:
