@@ -56,7 +56,9 @@ class Patient():
     return patient_info
 
 patient1 = Patient("John Doe", 25, 1, 22.2, 0, 0)
+# try to call the instance name of object
 print(patient1.name)
+# print the estimated insurance cost
 patient1.estimated_insurance_cost()
 
 
