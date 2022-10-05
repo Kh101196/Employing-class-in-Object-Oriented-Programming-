@@ -68,6 +68,12 @@ bmi = float(input('Please enter your bmi: '))
 num_of_children = int(input('Please enter your num of children: '))
 smoker = int(input('Please enter your smoking status: '))
 print('Please check your personal information again!')
+print('Your name: ', name)
+print('Your age: ', age)
+print('Your sex: ', sex)
+print('Your bmi: ', bmi)
+print('Your children: ', num_of_children)
+print('Your smoking status: ', smoker)
 patient = Patient(name, age, sex, bmi, num_of_children, smoker)
 
 
