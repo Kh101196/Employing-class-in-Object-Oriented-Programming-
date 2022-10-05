@@ -25,3 +25,6 @@ update_smoking_status
 2/ Creating one method that uses a dictionary to store a patient’s information in one convenient variable called patient_profile() 
 
 3/ Using try and except statements to ensure that patient data is uploaded using numerical values in the valid way.
+4/ The small difference between version 1 and version 2:
++ in version 1, the patient_info is default and can be updated
++ in version 2, the patient_info unavaillable so needing to be registered and then can be updated
